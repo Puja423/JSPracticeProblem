@@ -1,48 +1,34 @@
 process = require('process');
-input= process.argv[2];
+let input= process.argv[2];
 if(input==0)
 {
-    console.log("Zero");
+    console.log("Sunday");
 }
 else if(input==1)
 {
-    console.log("One")
-}
-else if(input==1)
-{
-    console.log("One")
+    console.log("Monday");
 }
 else if(input==2)
 {
-    console.log("Two")
+    console.log("Tuesday");
 }
 else if(input==3)
 {
-    console.log("Three")
+    console.log("Wednesday");
 }
 else if(input==4)
 {
-    console.log("Four")
+    console.log("Thursday");
 }
 else if(input==5)
 {
-    console.log("Five")
+    console.log("Friday");
 }
 else if(input==6)
 {
-    console.log("Six")
-}
-else if(input==7)
-{
-    console.log("Seven")
-}
-else if(input==8)
-{
-    console.log("Eight")
-}
-else if(input==9)
-{
-    console.log("Nine");
+    console.log("Saturday");
 }
 else
-    console.log("Invalid input");
+{
+    console.log("Invalid Input");
+}
